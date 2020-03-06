@@ -9,7 +9,7 @@
 	<body>
 		<h2>Spring MVC Demo - Home Page</h2>
 		<hr>
-		<a href="showForm">HelloWorldForm</a>
+		<a href="hello/showForm">HelloWorldForm</a>
 		<br><br>
 		<img src="${pageContext.request.contextPath}/resources/images/pic.jpg" class="pic">
 	</body>
