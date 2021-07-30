@@ -1,6 +1,6 @@
 # Spring MVC Demo
 
-##To run the server in dev mode:
+## To run the server in dev mode:
 1. Download Apache tomcat server
 2. Create a new project in Eclipse of type "Web:Dynamic Web Project"
 3. Copy the src and WEB_INF content into this project
@@ -10,14 +10,14 @@
 7. Add the tomcat server to the project
 8. Right click on the project name, spring-demo-mvc, and run as: "Run on Server" 
 
-######To add form validations:
+###### To add form validations:
 9. Download Hibernate validator 6.2 
 10. Copy these files into your project WEB-INF/lib:
     All files inside "hibernate-validator-6.2.0.Final\dist" folder
     All files inside "\hibernate-validator-6.2.0.Final\dist\lib\required"
 
 
-##To run the app in production mode (Deploy to tomcat):
+## To run the app in production mode (Deploy to tomcat):
 1. Right click on the project name, spring-demo-mvc, and export it as a WAR file into: /Apache Software Foundation/Tomcat 9.0/webapps/ 
 2. Wait 10 seconds to make the deployment, you'll know the deployment is over when a new folder with your WAR file name is created in webapps.
 
