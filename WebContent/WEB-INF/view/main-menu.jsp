@@ -11,6 +11,8 @@
 		<hr>
 		<a href="hello/showForm">HelloWorldForm</a>
 		<br><br>
+		<a href="student/showForm">Student Form</a>
+		<br><br>
 		<img src="${pageContext.request.contextPath}/resources/images/pic.jpg" class="pic">
 	</body>
 </html>
