@@ -25,6 +25,11 @@
 	</bean>
 	
 	<mvc:resources mapping="/resources/**" location="/resources/"></mvc:resources> 
+	
+	<!-- Load custom message resources -->
+	<bean class="org.springframework.context.support.ResourceBundleMessageSource" id="messageSource">
+		<property value="resources/messages" name="basenames"/>
+	</bean>
 
 </beans>
 

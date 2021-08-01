@@ -34,6 +34,7 @@ public class CustomerController {
 	{  		
 		
 		System.out.println('|' + iCustomer.getLastName() + '|');
+		System.out.println("iBindingResult:" + iBindingResult);
 		if(iBindingResult.hasErrors()) {
 			return "customer-form";
 		} else {
