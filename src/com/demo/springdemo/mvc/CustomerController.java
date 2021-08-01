@@ -33,8 +33,9 @@ public class CustomerController {
 			BindingResult iBindingResult) // Results of validation will be placed in the iBindingResult
 	{  		
 		
-		System.out.println('|' + iCustomer.getLastName() + '|');
-		System.out.println("iBindingResult:" + iBindingResult);
+		// System.out.println('|' + iCustomer.getLastName() + '|');
+		// Uncomment to see the error codes when an error happens
+		// System.out.println("iBindingResult:" + iBindingResult);
 		if(iBindingResult.hasErrors()) {
 			return "customer-form";
 		} else {
